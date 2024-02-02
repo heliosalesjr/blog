@@ -1,3 +1,4 @@
+import Avatar from "./avatar";
 import { CMS_NAME } from "../lib/constants";
 
 const Intro = () => {
@@ -9,6 +10,7 @@ const Intro = () => {
       <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
         Este é meu blog pessoal onde compartilho histórias e reflexões de viagens.
       </h4>
+      
     </section>
   );
 };
